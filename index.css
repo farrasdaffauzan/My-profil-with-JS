@@ -1,0 +1,192 @@
+body *{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#document {
+    border-bottom: solid grey;
+    padding: 0.5rem 0;
+}
+
+#document h3{
+    font-size: 30px;
+}
+
+#document #Status h5{
+    margin-top: -0.6rem;
+    font-size: 18px;
+}
+
+#list {
+    font-size: large;
+    display: inline-flex;
+    padding: 0;
+    margin: 0rem 2rem;
+    text-align: center;
+    width: -webkit-fill-available;
+    margin-top: 2rem ;
+}
+
+.JS {
+    transition: transform 1s ;
+    box-shadow: 0px 0px 16px -4px #000000;
+    cursor: pointer;
+    align-items: center;
+}
+
+.JS.scale {
+    transform: scale(2);
+    animation-name: scale;
+    animation-duration: 4s; 
+}
+
+#list #list1{
+    background-color: #ececec;
+    padding: 0 0.5rem;
+    width: 150px;
+    height: 150px;
+}
+
+#list #list1 h4{
+    font-size: 16px;
+}
+
+#list #list1 h6{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+#list #list2{
+    padding: 0 0.5rem;
+    background-color: #ececec;
+    width: 150px;
+    height: 150px;
+}
+
+#list #list2 h4{
+    font-size: 16px;
+}
+
+#list #list2 h6{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+#list #list3{
+    background-color: #ececec;
+    width: 150px;
+    height: 150px;
+    padding: 0 0.5rem;
+}
+
+#list #list3 h4{
+    font-size: 16px;
+}
+
+#list #list3 h6{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+#list #list4{
+    background-color: #ececec;
+    width: 150px;
+    height: 150px;
+    padding: 0 0.5rem;
+}
+
+#list #list4 h4{
+    font-size: 16px;
+}
+
+#list #list4 h6{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+#list #list5{
+    background-color: #ececec;
+    width: 150px;
+    height: 150px;
+    padding: 0 0.5rem;
+}
+
+#list #list5 h4{
+    font-size: 16px;
+}
+
+#list #list5 h6{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+#list #list6{
+    background-color: #ececec;
+    padding: 0 0.5rem;
+    width: 150px;
+    height: 150px;
+}
+
+#list #list6 h4{
+    font-size: 16px;
+}
+
+#list #list6 h6{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+#list h4 {
+    text-decoration: underline;
+    margin-top:  1.6rem;
+    margin-bottom: 0%;
+}
+
+#list h6 {
+    display: block;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0.7rem 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.formulir button{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    min-width: 3rem;
+    padding: 0 1.6rem;
+    border-radius: 2.4rem;
+    margin: 1rem 0;
+}
+
+.container .Isi{
+    margin: 2rem 0.5rem;
+    padding: 0 2rem;
+}
+
+.container .Isi h3{
+    border-top: solid grey;
+    padding-top: 2rem;
+    margin: 0 -5px;
+}
+
+.formulir legend{
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
